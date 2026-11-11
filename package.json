@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "yarn@1.22.22",
   "engines": {
-    "node": ">=22.0.0"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -71,6 +71,8 @@
     "**/@grpc/grpc-js": "^1.14.6",
     "firebase-tools/express": "^4.22.3",
     "**/qs": "^6.16.1",
-    "**/postcss": "^8.5.31"
+    "**/postcss": "^8.5.31",
+    "**/re2js": "2.8.7",
+    "**/postcss-selector-parser": "^6.1.5"
   }
 }
